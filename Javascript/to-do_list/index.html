@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <div class="to-do-list">
+        <div class="print-list">
+            <button onclick="window.print()">
+                <img src="assets/image/print.png" alt="Imprimir" />
+            </button>
+        </div>
+
+        <h1>To-do List</h1>
+        <div class="insert-atividade">
+            <textarea id="insert-atividade" placeholder="Descreva sua atividade"></textarea>
+            <button class="button-green" onclick="insertAtividade()">Adicionar</button>
+        </div>
+        <div id="list-checkbox">
+        </div>
+    </div>
+
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
